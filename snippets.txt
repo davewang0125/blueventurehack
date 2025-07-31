@@ -1,0 +1,43 @@
+  <!-- Hero Content -->
+    <div class="flex items-center justify-center min-h-[80vh] text-center px-4 relative z-10">
+      <div>
+        <h1 class="text-6xl font-bold text-white mb-6">
+          Build the <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400">Future</span>
+        </h1>
+        <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+          6 days of innovation. Hybrid format. Empowering youth to explore new technologies and build hands-on experiences.
+        </p>
+        <div class="space-x-4">
+          <button class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold">
+            Register Now!
+          </button>
+          <button class="border-2 border-white text-white hover:bg-white !importanthover:text-black px-8 py-4 rounded-full text-lg font-semibold transition-all">
+            Learn More
+          </button>
+        </div>
+        <br>
+        <div class="mt-8 text-gray-400">
+          📅 August 9-15, 2025 • 📍 Hybrid: Mountain View + Remote 
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <img class="bg-image"src="./landing_canva.png" alt="Landing Image" class="absolute inset-0 w-full h-full object-cover opacity-100">
+
+
+
+
+
+
+
+
+
+
+Event Highlights
+7 Days of intensive development (Mon-Sun, 9AM-9PM daily)
+Daily Mentorship from 50+ industry experts
+4 Challenge Tracks with real sponsor problem statements
+Free Access to premium APIs and cloud credits
+Live Demos to investors and potential employers
+Networking with 300+ tech professionals
