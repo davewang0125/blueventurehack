@@ -1,0 +1,272 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light; /* remove dark mode */
+  color: rgb(61, 65, 73);
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  height: 100%;
+}
+
+h1 {
+  font-size: 1.7em;
+  line-height: 1.1;
+  color: #595da8;
+}
+
+h2 {
+  font-size: 2.7em;
+  line-height: 1.1;
+  color: #5270ff;
+}
+
+h3 {
+  color: #6b6b6e;
+}
+
+p1 {
+  font-size: 1.3em;
+}
+
+p2 {
+  font-size: 1.1em;
+  font-family: 'Jetbrains Mono', JetBrains Mono, monospace;
+  font-weight: 550;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vanilla:hover {
+  filter: drop-shadow(0 0 2em #f7df1eaa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+button {
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.button-landing {
+  font-size: 1.5em;
+  gap: 5px;
+  margin-left: -50px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.hero-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: absolute;
+}
+
+.hero-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.hero-background-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.hero-background-overlay img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: right;
+  opacity: 0.2;
+}
+
+.logo-black {
+  filter: grayscale(80%) brightness(4%) contrast(1000%);
+}
+
+.logo-panbotica {
+  height: 150px !important;
+  width: 240px !important;
+  object-fit: contain !important;
+}
+
+.logo-beshton {
+  height: 90px !important;
+  width: 180px !important;
+  object-fit: contain !important;
+}
+
+.bg-image {
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  z-index: -1;
+}
+
+.spacer-div-margin {
+  margin-top: 400px !important; 
+}
+
+.horizontal-spacer {
+  margin-right: 80px; 
+  display: inline-block;
+}
+
+.smaller-text-container {
+  max-width: 670px; /* Adjust this value to your desired width */
+  overflow: hidden; /* Hides content that exceeds the defined width */
+}
+
+/* Separator 12: Lightning Bolt */
+.diagonal-12 {
+  height: 100px;
+  margin: 30px 0;
+  position: relative;
+}
+
+.diagonal-12::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-left: 110px solid transparent;
+  border-right: 80px solid transparent;
+  border-top: 120px solid #d0d0d3;
+  margin-left: -20px;
+  opacity: 0.4;
+}
+
+.diagonal-12::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-40%, -30%);
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 140px solid #6981ef;
+  margin-left: -20px;
+  margin-top: 10px;
+  opacity: 0.7;
+}
+
+separator {
+  margin: 60px 0;
+  text-align: center;
+}
+
+.separator h3 {
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 18px;
+}
+
+.headshot {
+  height: 300px !important;
+  width: 240px !important;
+  object-fit: contain !important;
+}
+
+.blue-ventures {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #5270ff;
+}
+
+.title-text {
+  font-size: 1.5em;
+}
