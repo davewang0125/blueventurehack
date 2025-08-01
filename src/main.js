@@ -103,14 +103,14 @@ document.querySelector('#app').innerHTML = `
         <!-- Registration Deadline -->
         <div class="bg-gray-700 p-4 rounded-lg text-center">
           <div class="flex items-center justify-center mb-2">
-            <h3 class="text-xl font-bold text-white">August 9th - Last day to register!</h3>
+            <h3 class="text-xl font-bold text-white">September 7th - Last day to register!</h3>
           </div>
         </div>
         
         <!-- Saturday -->
         <div class="bg-gray-700 p-4 rounded-lg text-center">
           <div class="flex items-center justify-center mb-2">
-            <h3 class="text-xl font-bold text-white">Saturday, August 9th - Day 1</h3>
+            <h3 class="text-xl font-bold text-white">Saturday, September 8th - Day 1</h3>
           </div>
           <p class="text-gray-400 mb-2">Hackathon begins</p>
           <div class="text-gray-300 text-sm">
@@ -121,7 +121,7 @@ document.querySelector('#app').innerHTML = `
         <!-- Sunday -->
         <div class="bg-gray-700 p-4 rounded-lg text-center">
           <div class="flex items-center justify-center mb-2">
-            <h3 class="text-xl font-bold text-white">Sunday, August 10th - Day 2</h3>
+            <h3 class="text-xl font-bold text-white">Sunday, September 9th - Day 2</h3>
           </div>
           <p class="text-gray-400 mb-2">Day 2 of hacking</p>
           <div class="text-gray-300 text-sm">
@@ -132,7 +132,7 @@ document.querySelector('#app').innerHTML = `
         <!-- Monday -->
         <div class="bg-gray-700 p-4 rounded-lg text-center">
           <div class="flex items-center justify-center mb-2">
-            <h3 class="text-xl font-bold text-white">Monday, August 11th - Day 3</h3>
+            <h3 class="text-xl font-bold text-white">Monday, September 10th - Day 3</h3>
           </div>
           <p class="text-gray-400 mb-2">Day 3 of hacking</p>
           <div class="text-gray-300 text-sm">
@@ -143,7 +143,7 @@ document.querySelector('#app').innerHTML = `
         <!-- Tuesday -->
         <div class="bg-gray-700 p-4 rounded-lg text-center">
           <div class="flex items-center justify-center mb-2">
-            <h3 class="text-xl font-bold text-white">Tuesday, August 12th - Day 4</h3>
+            <h3 class="text-xl font-bold text-white">Tuesday, September 11th - Day 4</h3>
           </div>
           <p class="text-gray-400 mb-2">Day 4 of hacking</p>
           <div class="text-gray-300 text-sm">
@@ -154,7 +154,7 @@ document.querySelector('#app').innerHTML = `
         <!-- Wednesday -->
         <div class="bg-gray-700 p-4 rounded-lg text-center">
           <div class="flex items-center justify-center mb-2">
-            <h3 class="text-xl font-bold text-white">Wednesday, August 13th - Day 5</h3>
+            <h3 class="text-xl font-bold text-white">Wednesday, September 12th - Day 5</h3>
           </div>
           <p class="text-gray-400 mb-2">Day 5 of hacking</p>
           <div class="text-gray-300 text-sm">
@@ -165,7 +165,7 @@ document.querySelector('#app').innerHTML = `
         <!-- Thursday -->
         <div class="bg-gray-700 p-4 rounded-lg text-center">
           <div class="flex items-center justify-center mb-2">
-            <h3 class="text-xl font-bold text-white">Thursday, August 14th - Day 6</h3>
+            <h3 class="text-xl font-bold text-white">Thursday, September 13th - Day 6</h3>
           </div>
           <p class="text-gray-400 mb-2">Day 6 of hacking</p>
           <div class="text-gray-300 text-sm">
@@ -176,7 +176,7 @@ document.querySelector('#app').innerHTML = `
         <!-- Friday -->
         <div class="bg-gray-700 p-4 rounded-lg text-center">
           <div class="flex items-center justify-center mb-2">
-            <h3 class="text-xl font-bold text-white">Friday, August 15th - Day 7</h3>
+            <h3 class="text-xl font-bold text-white">Friday, September 14th - Day 7</h3>
           </div>
           <p class="text-gray-400 mb-2">Final day of hacking</p>
           <div class="text-gray-300 text-sm">
@@ -187,7 +187,7 @@ document.querySelector('#app').innerHTML = `
         <!-- Demo Day -->
         <div class="bg-gray-700 p-4 rounded-lg text-center">
           <div class="flex items-center justify-center mb-2">
-            <h3 class="text-xl font-bold text-white">Saturday, August 16th - Demo Day</h3>
+            <h3 class="text-xl font-bold text-white">Saturday, September 15th - Demo Day</h3>
           </div>
           <p class="text-gray-400 mb-2">Judge and demo day</p>
           <div class="text-gray-300 text-sm">
@@ -302,7 +302,7 @@ document.querySelector('#app').innerHTML = `
       <h1 class="text-4xl font-bold text-white mb-6">Ready to Join Our Innovation Challenge?</h2>
       <p class="text-xl text-gray-400 mb-8">Connect with great mentors. Transform your ideas into reality. Shape what's next. <br>Secure your spot for $50.</p>
       <div class="mt-6 text-gray-500">
-        Registration closes August 9th.
+        Registration closes September 7th.
       </div>
       <br>
       <button class="bg-gradient-to-r from-blue-500 to-green-500 hover:from-blue-600 hover:to-green-600 text-white px-12 py-4 rounded-full text-xl font-bold">
