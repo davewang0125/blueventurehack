@@ -267,10 +267,10 @@ document.querySelector('#app').innerHTML = `
           <p>ML Engineer, Synopsys</p>
         </div>
         <div class="max-w-6xl mx-auto px-4">
-          <img src="./jiangqi.png" alt="Jiangqi Ying" class="headshot"> 
+          <img src="./jiangqi.png" alt="Qiying Jiang" class="headshot"> 
           <br><br>
-          <p1 style="font-weight: bold;">Jiangqi Ying</p1>
-          <p>CEO, Chinese American Network (CAN)</p>
+          <p1 style="font-weight: bold;">Qiying Jiang</p1>
+          <p>President, Chinese American Network (CAN)</p>
         </div>
         <div class="max-w-6xl mx-auto px-4">
           <img src="./jingwen.png" alt="Jingwen Wang" class="headshot"> 
